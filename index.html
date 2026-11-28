@@ -6,9 +6,9 @@
     <title>NETRA-ROVER MONITORING SYSTEM</title>
 
     <link rel="stylesheet" type="text/css" href="/style.css">
-    
+    <script src="/script.js" ></script>
 </head>
-<body >
+<body>
     
 <header class="topbar">
          <!-- this block for logo and title -->
@@ -27,7 +27,7 @@
     </div>
 
        <!-- this block for navigation -->
-   <nav >
+   <nav>
 
     <a href="#Dashboard">Dashboard</a>
 
@@ -58,11 +58,34 @@
 
 
 </header>
+ <!-- THis is the main section -->
+  <main class="page">
+    <section class="kpi-grid">
+        <article class="kpi-card">
+            <span>ROVERS ONLINE </span>
+           <h1 id ="online-count">5/6</h1>
+           <p>Active Rover Units</p>
+        </article>
 
-<h1>This is an example</h1>
-<h2>This is Beginning</h2>
+          <article class="kpi-card">
+            <span>AVERAGE BATTERY LEVEL </span>
+           <h1 id ="battery-level">62%</h1>
+           <p>Fleet Battery Level</p>
+        </article>
 
-<script src="script.js"></script> 
+        <article class="kpi-card">
+            <span>OPEN ALERTS </span>
+           <h1 id ="alert-count">1</h1>
+           <p>Requires attention</p>
+        </article>
+
+         <article class="kpi-card">
+            <span>DISTANCE TODAY </span>
+           <h1 id ="distance-today">69.96 km</h1>
+           <p>Total simulated result</p>
+        </article>
+    </section>
+  </main>
 
 </body>
 </html>
